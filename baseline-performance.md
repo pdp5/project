@@ -1,5 +1,7 @@
 Group members: Prit Patel, Jaimeen Sharma
-I downloaded the dataset and uploaded it onto the gogle drive. Then, I unzip and install it there. Then I made some edits in given file named 228_training_aerial_imagery.py file and then ran it on google colab.
+
+
+\nI downloaded the dataset and uploaded it onto the gogle drive. Then, I unzip and install it there. Then I made some edits in given file named 228_training_aerial_imagery.py file and then ran it on google colab.
 ![1](https://user-images.githubusercontent.com/116983462/200226118-13425bad-beec-452a-8575-37e9c90ce82f.jpg)
 ![2](https://user-images.githubusercontent.com/116983462/200226127-649e88ca-8bea-46b7-9a05-f3ef3d4fa8bf.jpg)
 Next, divide each image by the patch size, which is 256, and read each one as BGR (blue, green, and red). After that, each image's patches were extracted using the patchifying library. then carried out the exact identical action using masks. then the designated building color code After being turned into an RBG array, the labels were applied to the land, roads, vegetation, water, and unlabels. The image was then double-checked to see if it was what was anticipated. Then, since the size of our patch was 256, we imported the multi unetmodel and Jacard coef from another file called simple multi unet model. This image model was created using height and width channels, and it was then assembled in the optimizer "Adam." The model was then put into History 1, and Model fir was performed with a batch size of 16 and epochs of 56. 
