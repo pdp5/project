@@ -2,6 +2,7 @@ Milestone 3:
 Group Members: Prit Patel, Jaimeen Sharma
 
 Group2: Anneal Method
+
 This simple annealing algorithm begins by sampling from the prior, but tends over time to sample from points closer and closer to the best ones observed.
 This algorithm is a simple variation on the random search that leverages smoothness in the response surface. The annealing rate is not adaptive.
 
