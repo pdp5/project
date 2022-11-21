@@ -1,5 +1,5 @@
 Milestone 3:
-Group Members: Prit Patel, Jaimeen Sharma
+\nGroup Members: Prit Patel, Jaimeen Sharma
 
 
 ![1](https://user-images.githubusercontent.com/116983462/202966881-eaa7c9a7-6338-43ab-8009-c794b314430f.jpg)
